@@ -1,0 +1,2 @@
+learning_topic
+-DCATKIN_DEVEL_PREFIX=/home/yulong/Documents/ma_imn/ros_lernen/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/yulong/Documents/ma_imn/ros_lernen/catkin_ws/install -G Unix Makefiles

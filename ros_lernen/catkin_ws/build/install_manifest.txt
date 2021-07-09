@@ -1,0 +1,13 @@
+/home/yulong/Documents/ma_imn/ros_lernen/catkin_ws/install/_setup_util.py
+/home/yulong/Documents/ma_imn/ros_lernen/catkin_ws/install/env.sh
+/home/yulong/Documents/ma_imn/ros_lernen/catkin_ws/install/setup.bash
+/home/yulong/Documents/ma_imn/ros_lernen/catkin_ws/install/local_setup.bash
+/home/yulong/Documents/ma_imn/ros_lernen/catkin_ws/install/setup.sh
+/home/yulong/Documents/ma_imn/ros_lernen/catkin_ws/install/local_setup.sh
+/home/yulong/Documents/ma_imn/ros_lernen/catkin_ws/install/setup.zsh
+/home/yulong/Documents/ma_imn/ros_lernen/catkin_ws/install/local_setup.zsh
+/home/yulong/Documents/ma_imn/ros_lernen/catkin_ws/install/.rosinstall
+/home/yulong/Documents/ma_imn/ros_lernen/catkin_ws/install/lib/pkgconfig/test_pkg.pc
+/home/yulong/Documents/ma_imn/ros_lernen/catkin_ws/install/share/test_pkg/cmake/test_pkgConfig.cmake
+/home/yulong/Documents/ma_imn/ros_lernen/catkin_ws/install/share/test_pkg/cmake/test_pkgConfig-version.cmake
+/home/yulong/Documents/ma_imn/ros_lernen/catkin_ws/install/share/test_pkg/package.xml

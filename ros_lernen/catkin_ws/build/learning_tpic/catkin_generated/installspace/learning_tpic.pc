@@ -1,0 +1,8 @@
+prefix=/home/yulong/Documents/ma_imn/ros_lernen/catkin_ws/install
+
+Name: learning_tpic
+Description: Description of learning_tpic
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
