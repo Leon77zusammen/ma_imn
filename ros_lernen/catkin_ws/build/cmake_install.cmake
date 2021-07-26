@@ -131,6 +131,9 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/yulong/Documents/ma_imn/ros_lernen/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/yulong/Documents/ma_imn/ros_lernen/catkin_ws/build/learning_parameter/cmake_install.cmake")
+  include("/home/yulong/Documents/ma_imn/ros_lernen/catkin_ws/build/learning_service/cmake_install.cmake")
+  include("/home/yulong/Documents/ma_imn/ros_lernen/catkin_ws/build/learning_tf/cmake_install.cmake")
   include("/home/yulong/Documents/ma_imn/ros_lernen/catkin_ws/build/learning_topic/cmake_install.cmake")
 
 endif()
