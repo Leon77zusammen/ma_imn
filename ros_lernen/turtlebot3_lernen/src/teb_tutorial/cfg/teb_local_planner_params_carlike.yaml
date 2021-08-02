@@ -1,0 +1,38 @@
+# file: teb_local_planner_params_carlike.yaml
+TebLocalPlannerROS:
+
+ # Trajectory
+ dt_ref: 0.3
+ dt_hysteresis: 0.1
+ global_plan_overwrite_orientation: True
+ allow_init_with_backwards_motion: False
+ max_global_plan_lookahead_dist: 3.0
+ feasibility_check_no_poses: 3
+ 
+ # Robot
+ max_vel_x: 0.4
+ max_vel_x_backwards: 0.2
+ max_vel_theta: 0.3
+ acc_lim_x: 0.5
+ acc_lim_theta: 0.5
+ min_turning_radius: 0.5 # we have a car-like robot!
+ wheelbase: 0.4 # wheelbase of our robot
+ cmd_angle_instead_rotvel: True # angle instead of the rotvel for stage
+ weight_kinematics_turning_radius: 1 # increase, if the penalty for min_turning_radius is not sufficient
+ footprint_model:
+    type: "line"
+    line_start: [0.0, 0.0] # include robot expanse in min_obstacle_dist
+    line_end: [0.4, 0.0] # include robot expanse in min_obstacle_dist
+
+ # Goal Tolerance
+ xy_goal_tolerance: 0.2
+ yaw_goal_tolerance: 0.1
+
+ # Obstacles
+ min_obstacle_dist: 0.25
+ costmap_obstacles_behind_robot_dist: 1.0
+ obstacle_poses_affected: 10
+
+ # Optimization
+ no_inner_iterations: 5
+ no_outer_iterations: 4
