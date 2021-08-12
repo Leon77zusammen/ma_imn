@@ -61,3 +61,29 @@ class CQueue:
         while self.A:
             self.B.append(self.A.pop())
         return self.B.pop()    
+
+# 12.08 offer20 isNumber use zustandmaschine , Hash table
+class Solution(object):
+    def isNumber(self, s):
+        states = [
+            { ' ': 0, 's': 1, 'd': 2, '.': 4 },
+            { 'd': 2, '.':4},
+            { 'd': 2, '.': 3, 'e': 5, ' ': 8 },
+            { 'd': 3, 'e': 5, ' ': 8 },
+            { 'd': 3 },
+            { 's': 6, ' ': 7 },
+            { 'd': 7 },
+            { 'd': 7 },
+            { 'd': 7, ' ': 8 },
+            { ' ':8 }
+        ]
+        p = 0
+        for c in s:
+            if '0' <= c <= '9': t = 'd'
+            elif c in "+-": t = 's'
+            elif c in "eE": t = 'e'
+            elif c in ". ": t = c
+            else: t = '?'
+            if t not in states[p]: return False
+            p = states[p][t]
+        return p in (2, 3, 7, 8)
