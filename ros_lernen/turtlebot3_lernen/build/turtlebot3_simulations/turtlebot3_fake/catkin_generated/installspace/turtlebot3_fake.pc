@@ -1,4 +1,4 @@
-prefix=/home/tom/catkin_ws/install
+prefix=/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/install
 
 Name: turtlebot3_fake
 Description: Description of turtlebot3_fake

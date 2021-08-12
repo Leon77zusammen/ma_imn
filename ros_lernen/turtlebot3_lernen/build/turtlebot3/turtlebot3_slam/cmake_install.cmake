@@ -1,8 +1,8 @@
-# Install script for directory: /home/tom/catkin_ws/src/turtlebot3/turtlebot3_slam
+# Install script for directory: /home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/src/turtlebot3/turtlebot3_slam
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tom/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tom/catkin_ws/build/turtlebot3/turtlebot3_slam/catkin_generated/installspace/turtlebot3_slam.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/build/turtlebot3/turtlebot3_slam/catkin_generated/installspace/turtlebot3_slam.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_slam/cmake" TYPE FILE FILES
-    "/home/tom/catkin_ws/build/turtlebot3/turtlebot3_slam/catkin_generated/installspace/turtlebot3_slamConfig.cmake"
-    "/home/tom/catkin_ws/build/turtlebot3/turtlebot3_slam/catkin_generated/installspace/turtlebot3_slamConfig-version.cmake"
+    "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/build/turtlebot3/turtlebot3_slam/catkin_generated/installspace/turtlebot3_slamConfig.cmake"
+    "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/build/turtlebot3/turtlebot3_slam/catkin_generated/installspace/turtlebot3_slamConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_slam" TYPE FILE FILES "/home/tom/catkin_ws/src/turtlebot3/turtlebot3_slam/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_slam" TYPE FILE FILES "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/src/turtlebot3/turtlebot3_slam/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,7 +59,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/turtlebot3_slam/flat_world_imu_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/turtlebot3_slam" TYPE EXECUTABLE FILES "/home/tom/catkin_ws/devel/lib/turtlebot3_slam/flat_world_imu_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/turtlebot3_slam" TYPE EXECUTABLE FILES "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/lib/turtlebot3_slam/flat_world_imu_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/turtlebot3_slam/flat_world_imu_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/turtlebot3_slam/flat_world_imu_node")
     file(RPATH_CHANGE
@@ -73,15 +73,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/turtlebot3_slam" TYPE DIRECTORY FILES "/home/tom/catkin_ws/src/turtlebot3/turtlebot3_slam/include/turtlebot3_slam/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/turtlebot3_slam" TYPE DIRECTORY FILES "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/src/turtlebot3/turtlebot3_slam/include/turtlebot3_slam/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_slam" TYPE DIRECTORY FILES
-    "/home/tom/catkin_ws/src/turtlebot3/turtlebot3_slam/bag"
-    "/home/tom/catkin_ws/src/turtlebot3/turtlebot3_slam/config"
-    "/home/tom/catkin_ws/src/turtlebot3/turtlebot3_slam/launch"
-    "/home/tom/catkin_ws/src/turtlebot3/turtlebot3_slam/rviz"
+    "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/src/turtlebot3/turtlebot3_slam/bag"
+    "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/src/turtlebot3/turtlebot3_slam/config"
+    "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/src/turtlebot3/turtlebot3_slam/launch"
+    "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/src/turtlebot3/turtlebot3_slam/rviz"
     )
 endif()
 

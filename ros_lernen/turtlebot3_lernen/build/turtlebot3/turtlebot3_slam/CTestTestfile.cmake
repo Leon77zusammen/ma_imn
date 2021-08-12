@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/tom/catkin_ws/src/turtlebot3/turtlebot3_slam
-# Build directory: /home/tom/catkin_ws/build/turtlebot3/turtlebot3_slam
+# Source directory: /home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/src/turtlebot3/turtlebot3_slam
+# Build directory: /home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/build/turtlebot3/turtlebot3_slam
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

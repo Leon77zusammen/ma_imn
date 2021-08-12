@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
-  "/home/tom/catkin_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Action.js"
-  "/home/tom/catkin_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.js"
-  "/home/tom/catkin_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.js"
-  "/home/tom/catkin_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionResult.js"
-  "/home/tom/catkin_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Feedback.js"
-  "/home/tom/catkin_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Goal.js"
-  "/home/tom/catkin_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Result.js"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Action.js"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.js"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.js"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionResult.js"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Feedback.js"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Goal.js"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Result.js"
   "CMakeFiles/turtlebot3_example_generate_messages_nodejs"
 )
 

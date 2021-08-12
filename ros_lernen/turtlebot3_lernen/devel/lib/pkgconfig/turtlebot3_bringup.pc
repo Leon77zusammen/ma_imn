@@ -1,4 +1,4 @@
-prefix=/home/tom/catkin_ws/devel
+prefix=/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel
 
 Name: turtlebot3_bringup
 Description: Description of turtlebot3_bringup

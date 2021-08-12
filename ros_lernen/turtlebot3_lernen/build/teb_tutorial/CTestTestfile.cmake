@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/tom/catkin_ws/src/teb_tutorial
-# Build directory: /home/tom/catkin_ws/build/teb_tutorial
+# Source directory: /home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/src/teb_tutorial
+# Build directory: /home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/build/teb_tutorial
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

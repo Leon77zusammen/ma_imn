@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/tom/catkin_ws/devel/share/gennodejs/ros/turtlebot3_msgs/msg/SensorState.js"
-  "/home/tom/catkin_ws/devel/share/gennodejs/ros/turtlebot3_msgs/msg/Sound.js"
-  "/home/tom/catkin_ws/devel/share/gennodejs/ros/turtlebot3_msgs/msg/VersionInfo.js"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/share/gennodejs/ros/turtlebot3_msgs/msg/SensorState.js"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/share/gennodejs/ros/turtlebot3_msgs/msg/Sound.js"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/share/gennodejs/ros/turtlebot3_msgs/msg/VersionInfo.js"
   "CMakeFiles/turtlebot3_msgs_generate_messages_nodejs"
 )
 

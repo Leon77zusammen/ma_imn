@@ -1,8 +1,8 @@
-# Install script for directory: /home/tom/catkin_ws/src/teb_tutorial
+# Install script for directory: /home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/src/teb_tutorial
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tom/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tom/catkin_ws/build/teb_tutorial/catkin_generated/installspace/teb_tutorial.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/build/teb_tutorial/catkin_generated/installspace/teb_tutorial.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teb_tutorial/cmake" TYPE FILE FILES
-    "/home/tom/catkin_ws/build/teb_tutorial/catkin_generated/installspace/teb_tutorialConfig.cmake"
-    "/home/tom/catkin_ws/build/teb_tutorial/catkin_generated/installspace/teb_tutorialConfig-version.cmake"
+    "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/build/teb_tutorial/catkin_generated/installspace/teb_tutorialConfig.cmake"
+    "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/build/teb_tutorial/catkin_generated/installspace/teb_tutorialConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teb_tutorial" TYPE FILE FILES "/home/tom/catkin_ws/src/teb_tutorial/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teb_tutorial" TYPE FILE FILES "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/src/teb_tutorial/package.xml")
 endif()
 

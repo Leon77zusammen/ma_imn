@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
-  "/home/tom/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp"
-  "/home/tom/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp"
-  "/home/tom/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp"
-  "/home/tom/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp"
-  "/home/tom/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Feedback.lisp"
-  "/home/tom/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Goal.lisp"
-  "/home/tom/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Result.lisp"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Feedback.lisp"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Goal.lisp"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Result.lisp"
   "CMakeFiles/turtlebot3_example_generate_messages_lisp"
 )
 

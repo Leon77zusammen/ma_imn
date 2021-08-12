@@ -13,21 +13,21 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/tom/catkin_ws/src/turtlebot3/turtlebot3_teleop"
+echo_and_run cd "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/src/turtlebot3/turtlebot3_teleop"
 
 # ensure that Python install destination exists
-echo_and_run mkdir -p "$DESTDIR/home/tom/catkin_ws/install/lib/python3/dist-packages"
+echo_and_run mkdir -p "$DESTDIR/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/install/lib/python3/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/tom/catkin_ws/install/lib/python3/dist-packages:/home/tom/catkin_ws/build/lib/python3/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/tom/catkin_ws/build" \
-    "/usr/bin/python3" \
-    "/home/tom/catkin_ws/src/turtlebot3/turtlebot3_teleop/setup.py" \
+    PYTHONPATH="/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/install/lib/python3/dist-packages:/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/build/lib/python3/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/build" \
+    "/home/yulong/anaconda3/bin/python3" \
+    "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/src/turtlebot3/turtlebot3_teleop/setup.py" \
      \
-    build --build-base "/home/tom/catkin_ws/build/turtlebot3/turtlebot3_teleop" \
+    build --build-base "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/build/turtlebot3/turtlebot3_teleop" \
     install \
     --root="${DESTDIR-/}" \
-    --install-layout=deb --prefix="/home/tom/catkin_ws/install" --install-scripts="/home/tom/catkin_ws/install/bin"
+    --install-layout=deb --prefix="/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/install" --install-scripts="/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/install/bin"

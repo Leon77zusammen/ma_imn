@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
-  "/home/tom/catkin_ws/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3Action.py"
-  "/home/tom/catkin_ws/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3ActionFeedback.py"
-  "/home/tom/catkin_ws/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3ActionGoal.py"
-  "/home/tom/catkin_ws/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3ActionResult.py"
-  "/home/tom/catkin_ws/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3Feedback.py"
-  "/home/tom/catkin_ws/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3Goal.py"
-  "/home/tom/catkin_ws/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3Result.py"
-  "/home/tom/catkin_ws/devel/lib/python3/dist-packages/turtlebot3_example/msg/__init__.py"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3Action.py"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3ActionFeedback.py"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3ActionGoal.py"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3ActionResult.py"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3Feedback.py"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3Goal.py"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/lib/python3/dist-packages/turtlebot3_example/msg/_Turtlebot3Result.py"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/lib/python3/dist-packages/turtlebot3_example/msg/__init__.py"
   "CMakeFiles/turtlebot3_example_generate_messages_py"
 )
 

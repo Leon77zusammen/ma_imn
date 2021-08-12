@@ -67,14 +67,14 @@ set(teb_tutorial_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(teb_tutorial_SOURCE_PREFIX /home/tom/catkin_ws/src/teb_tutorial)
-  set(teb_tutorial_DEVEL_PREFIX /home/tom/catkin_ws/devel)
+  set(teb_tutorial_SOURCE_PREFIX /home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/src/teb_tutorial)
+  set(teb_tutorial_DEVEL_PREFIX /home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel)
   set(teb_tutorial_INSTALL_PREFIX "")
   set(teb_tutorial_PREFIX ${teb_tutorial_DEVEL_PREFIX})
 else()
   set(teb_tutorial_SOURCE_PREFIX "")
   set(teb_tutorial_DEVEL_PREFIX "")
-  set(teb_tutorial_INSTALL_PREFIX /home/tom/catkin_ws/install)
+  set(teb_tutorial_INSTALL_PREFIX /home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/install)
   set(teb_tutorial_PREFIX ${teb_tutorial_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/tom/catkin_ws/install/lib;/home/tom/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/install/lib;/home/yulong/Documents/yulong_MA/lobabo_yulong/devel/lib;/home/yulong/Documents/ma_imn/ros_lernen/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(teb_tutorial_LIBRARIES ${teb_tutorial_LIBRARIES})
 
   _list_append_unique(teb_tutorial_LIBRARY_DIRS ${${teb_tutorial_dep}_LIBRARY_DIRS})
-  list(APPEND teb_tutorial_EXPORTED_TARGETS ${${teb_tutorial_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(teb_tutorial_EXPORTED_TARGETS ${${teb_tutorial_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/tom/catkin_ws/devel/include/turtlebot3_msgs/SensorState.h"
-  "/home/tom/catkin_ws/devel/include/turtlebot3_msgs/Sound.h"
-  "/home/tom/catkin_ws/devel/include/turtlebot3_msgs/VersionInfo.h"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/include/turtlebot3_msgs/SensorState.h"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/include/turtlebot3_msgs/Sound.h"
+  "/home/yulong/Documents/ma_imn/ros_lernen/turtlebot3_lernen/devel/include/turtlebot3_msgs/VersionInfo.h"
   "CMakeFiles/turtlebot3_msgs_generate_messages_cpp"
 )
 
