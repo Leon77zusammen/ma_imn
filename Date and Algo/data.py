@@ -36,7 +36,7 @@ class Solution:
 
 # 02.08 offer06 print linked list from end to start
 class Solution: 
-    def reversePrint(self, head): #digui Recursion
+    def reversePrint(self, head): #Recursion
         return self.reversePrint(head.next) + [head.val] if head else []
 
 class Solution:
